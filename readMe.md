@@ -1,10 +1,10 @@
 ### K1_Series_Annex
 
-1. Fluidd installation and uninstallation
+1. Fluidd installation and uninstallation (UI Option)
   
   >a) Put the same level directory file ( fluidd ) in the root directory of the U disk
   
-  >b) Copy the files ( fluidd.sh and fluidd.tar ) to directory ( /usr/data ) `cp /tmp/udisk/sda1/fluidd/* /usr/data/`
+  >b) Copy the files ( fluidd.sh and fluidd.tar ) to the directory ( /usr/data ) `cp /tmp/udisk/sda1/fluidd/* /usr/data/`
 
   >c) Install Fluidd, moonraker and nginx `/usr/data/fluidd.sh install`
   
@@ -15,10 +15,10 @@
   
   ❗__Warning:__❗ Moonraker running for a long time on the K1 series poses a risk of memory overflow!
 
-2. Mainsail installation and uninstallation
+2. Mainsail installation and uninstallation (UI Option)
    >a) Put the same level directory file ( mainsail ) in the root directory of the U disk  
 
-   >b) Copy the files ( mainsail.sh and mainsail.tar ) to directory ( /usr/data )  `cp /tmp/udisk/sda1/mainsail/* /usr/data/`
+   >b) Copy the files ( mainsail.sh and mainsail.tar ) to the directory ( /usr/data )  `cp /tmp/udisk/sda1/mainsail/* /usr/data/`
 
    >c)Install mainsail, moonraker and nginx `/usr/data/mainsail.sh install`
 
