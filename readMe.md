@@ -53,6 +53,7 @@
   
 
 #### Root guide
+The link for the manual is [here](https://github.com/bankh/K1_Series_Annex/blob/main/root%20guide/K1%20Series%20root%20guide.pdf).
 
 Firmware-recovery-tool: https://github.com/CrealityOfficial/K1_Series_Annex/releases/tag/V1.0.0  
 Release： https://github.com/CrealityOfficial/K1_Series_Klipper/releases/tag/V1.3.2.1  
