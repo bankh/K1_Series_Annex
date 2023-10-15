@@ -1,3 +1,10 @@
+### Table of Contents
+1- [Fluidd installation and uninstallation (UI Option)](#fluidd-installation-and-uninstallation-ui-option)  
+2- [Mainsail installation and uninstallation (UI Option)](#mainsail-installation-and-uninstallation-ui-option)  
+3- [Pinout](#pinout)  
+4- [Root guide](#root-guide)  
+[Additional References](#additional-references)  
+
 ### K1_Series_Annex
 
 1. Fluidd installation and uninstallation (UI Option)
@@ -28,6 +35,22 @@
    >> {IP}:4409 (e.g., 192.168.1.1:4409)
 
 3. Pinout
+
+ <table>
+    <tr>
+        <td><img src="./pin out/Nozzle-board-A-en.JPEG" alt="Dummy Image"></td>
+    </tr>
+    <tr>
+        <td><img src="./pin out/Nozzle-board-B-en.JPEG" alt="Dummy Image"></td>
+    </tr>
+    <tr>
+        <td><img src="./pin out/motherboard-en.PNG" alt="Dummy Image"></td>
+    </tr>
+    <tr>
+        <td><img src="./pin out/motherboard-pinout.JPEG"></td>
+    </tr>
+</table>
+  
 
 4. Root guide
 
