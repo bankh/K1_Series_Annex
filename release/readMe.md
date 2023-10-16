@@ -1,3 +1,5 @@
+The download link is [here]().
+
 Guide
 Scope of version update for version 1.3.2.1: 1.3.1.19-1.3.2.1.
 Applicable Printer: K1 Max&K1
