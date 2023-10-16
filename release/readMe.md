@@ -1,4 +1,4 @@
-The download link is [here]().
+The download link is [here](https://drive.google.com/file/d/1_wLlbcfyCP2RPORpwKGLmsMj5SPtc_uC/view?usp=drive_link).
 
 Guide
 Scope of version update for version 1.3.2.1: 1.3.1.19-1.3.2.1.
