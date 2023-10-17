@@ -28,13 +28,16 @@
 #### Mainsail installation and uninstallation (UI Option)
    1) Put the same level directory file ( mainsail ) in the root directory of the U disk  
 
-   2) Copy the files ( mainsail.sh and mainsail.tar ) to the directory ( /usr/data )  `cp /tmp/udisk/sda1/mainsail/* /usr/data/`
+   2) Copy the files ( mainsail.sh and mainsail.tar ) to the directory ( /usr/data )
+    ```
+    $ cp /tmp/udisk/sda1/mainsail/* /usr/data/
+    ```
       
-   3) Install mainsail, moonraker and nginx `/usr/data/mainsail.sh install`
+   4) Install mainsail, moonraker, and nginx `$ /usr/data/mainsail.sh install`
 
-   4) Uninstall mainsail, moonraker and nginx `/usr/data/mainsail.sh unstall`
+   5) Uninstall mainsail, moonraker, and nginx `$ /usr/data/mainsail.sh unstall`
 
-   5) Access to Mainsail: {IP}:4409 (e.g., 192.168.1.1:4409)
+   6) Access to Mainsail: {IP}:4409 (e.g., 192.168.1.1:4409)
 
 #### Pinout
 
