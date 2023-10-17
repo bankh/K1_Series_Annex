@@ -5,34 +5,36 @@
 4- [Root guide](#root-guide)  
 [Additional References](#additional-references)  
 
-### K1_Series_Annex
+❗__Warning:__❗ Moonraker running for a long time on the K1 series poses a risk of memory overflow!
 
+### K1_Series_Annex
 #### Fluidd installation and uninstallation (UI Option)
   
-  >a) Put the same level directory file ( fluidd ) in the root directory of the U disk
+  1) Put the same level directory file ( Fluidd ) in the root directory of the USB disk
+  2) Copy the files ( fluidd.sh and fluidd.tar ) to the directory ( /usr/data )
+  ```
+  $ cp /tmp/udisk/sda1/fluidd/* /usr/data/
+  ```
+  3) Install Fluidd, moonraker and nginx
+  ```
+  $ ./fluidd.sh install
+  ```
+  4) To uninstall `fluidd`, `moonraker` and `nginx`  
+  ```
+  ./fluidd.sh unstall
+  ```
+  5) Into Fluidd, IP with 4408 port (e.g., 192.168.1.1:4408)
   
-  >b) Copy the files ( fluidd.sh and fluidd.tar ) to the directory ( /usr/data ) `cp /tmp/udisk/sda1/fluidd/* /usr/data/`
-
-  >c) Install Fluidd, moonraker and nginx `/usr/data/fluidd.sh install`
-  
-  >d) Unstall Fluidd, moonraker and nginx `/usr/data/fluidd.sh unstall`
-  
-  >e) Access to Fluidd
-  >> {IP}:4408 (e.g., 192.168.1.1:4408)
-  
-  ❗__Warning:__❗ Moonraker running for a long time on the K1 series poses a risk of memory overflow!
-
 #### Mainsail installation and uninstallation (UI Option)
-   >a) Put the same level directory file ( mainsail ) in the root directory of the U disk  
+   1) Put the same level directory file ( mainsail ) in the root directory of the U disk  
 
-   >b) Copy the files ( mainsail.sh and mainsail.tar ) to the directory ( /usr/data )  `cp /tmp/udisk/sda1/mainsail/* /usr/data/`
+   2) Copy the files ( mainsail.sh and mainsail.tar ) to the directory ( /usr/data )  `cp /tmp/udisk/sda1/mainsail/* /usr/data/`
+      
+   3) Install mainsail, moonraker and nginx `/usr/data/mainsail.sh install`
 
-   >c)Install mainsail, moonraker and nginx `/usr/data/mainsail.sh install`
+   4) Uninstall mainsail, moonraker and nginx `/usr/data/mainsail.sh unstall`
 
-   >d) Uninstall mainsail, moonraker and nginx `/usr/data/mainsail.sh unstall`
-
-   >e> Access to Mainsail  
-   >> {IP}:4409 (e.g., 192.168.1.1:4409)
+   5) Access to Mainsail: {IP}:4409 (e.g., 192.168.1.1:4409)
 
 #### Pinout
 
