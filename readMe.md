@@ -37,9 +37,9 @@
 
    2) Copy the files ( mainsail.sh and mainsail.tar ) to the directory ( /usr/data )
       
-    ```
+    
     $ cp /tmp/udisk/sda1/mainsail/* /usr/data/
-    ```
+    
       
    4) Install mainsail, moonraker, and nginx `$ /usr/data/mainsail.sh install`
 
