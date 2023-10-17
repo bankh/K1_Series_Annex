@@ -1,18 +1,22 @@
 Instruction
 
-Put the same level directory file ( fluidd ) in the root directory of the U disk
+Put the same level directory file ( Fluidd ) in the root directory of the USB disk
 
-Copy the files ( fluidd.sh and fluidd.tar ) to directory ( /usr/data )
-cp /tmp/udisk/sda1/fluidd/* /usr/data/
+- Copy the files ( fluidd.sh and fluidd.tar ) to the directory ( /usr/data )
+```
+$ cp /tmp/udisk/sda1/fluidd/* /usr/data/
+```
 
-Install fluidd, moonraker and nginx
-/usr/data/fluidd.sh install
+- Install Fluidd, moonraker and nginx
+```
+$ ./fluidd.sh install
+```
 
-unstall fluidd, moonraker and nginx
-/usr/data/fluidd.sh unstall
+- To uninstall `fluidd`, `moonraker` and `nginx`  
+```
+./fluidd.sh unstall
+```
 
-Into fluidd
-IP with 4408 port
-eg, 192.168.1.1:4408
+- Into Fluidd, IP with 4408 port (e.g., 192.168.1.1:4408)
 
-Warning: Monnraker running for a long time on the K1 series poses a risk of memory overflow
+__Warning:__ `Monnraker` running for a long time on the K1 series poses a risk of memory overflow.
