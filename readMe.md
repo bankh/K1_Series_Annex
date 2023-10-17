@@ -36,6 +36,7 @@
    1) Put the same level directory file ( mainsail ) in the root directory of the U disk  
 
    2) Copy the files ( mainsail.sh and mainsail.tar ) to the directory ( /usr/data )
+      
     ```
     $ cp /tmp/udisk/sda1/mainsail/* /usr/data/
     ```
