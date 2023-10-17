@@ -8,6 +8,10 @@
 ❗__Warning:__❗ Moonraker running for a long time on the K1 series poses a risk of memory overflow!
 
 ### K1_Series_Annex
+### Download and Install the Image 1.3.2  
+
+  The download link is [here](https://drive.google.com/file/d/1_wLlbcfyCP2RPORpwKGLmsMj5SPtc_uC/view?usp=drive_link).
+
 #### Fluidd installation and uninstallation (UI Option)
   
   1) Put the same level directory file ( Fluidd ) in the root directory of the USB disk
@@ -23,7 +27,10 @@
   ```
   ./fluidd.sh unstall
   ```
-  5) Into Fluidd, IP with 4408 port (e.g., 192.168.1.1:4408)
+  5) Into Fluidd, IP with 4408 port (e.g., 192.168.1.1:4408) should result in the following screenshot.
+
+     ![image](https://github.com/bankh/K1_Series_Annex/assets/9688867/2583ea1f-3ed0-4de2-9e2f-28efc6731768)
+
   
 #### Mainsail installation and uninstallation (UI Option)
    1) Put the same level directory file ( mainsail ) in the root directory of the U disk  
