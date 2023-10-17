@@ -1,18 +1,19 @@
 ### Table of Contents
-1- [Fluidd installation and uninstallation (UI Option)](#fluidd-installation-and-uninstallation-ui-option)  
-2- [Mainsail installation and uninstallation (UI Option)](#mainsail-installation-and-uninstallation-ui-option)  
-3- [Pinout](#pinout)  
-4- [Root guide](#root-guide)  
-[Additional References](#additional-references)  
+I- Download and Install the Image 1.3.2 
+IIa- [Fluidd installation and uninstallation (UI Option)](#fluidd-installation-and-uninstallation-ui-option)  
+IIb- [Mainsail installation and uninstallation (UI Option)](#mainsail-installation-and-uninstallation-ui-option)  
+III- [Pinout](#pinout)  
+IV- [Root guide](#root-guide)  
+V- [Additional References](#additional-references)  
 
 ❗__Warning:__❗ Moonraker running for a long time on the K1 series poses a risk of memory overflow!
 
 ### K1_Series_Annex
-### Download and Install the Image 1.3.2  
+#### I- Download and Install the Image 1.3.2  
 
   The download link is [here](https://drive.google.com/file/d/1_wLlbcfyCP2RPORpwKGLmsMj5SPtc_uC/view?usp=drive_link).
 
-#### Fluidd installation and uninstallation (UI Option)
+#### IIa- Fluidd installation and uninstallation (UI Option)
   
   1) Put the same level directory file ( Fluidd ) in the root directory of the USB disk
   2) Copy the files ( fluidd.sh and fluidd.tar ) to the directory ( /usr/data )
@@ -31,8 +32,7 @@
 
      ![image](https://github.com/bankh/K1_Series_Annex/assets/9688867/2583ea1f-3ed0-4de2-9e2f-28efc6731768)
 
-  
-#### Mainsail installation and uninstallation (UI Option)
+#### IIb- Mainsail installation and uninstallation (UI Option)
    1) Put the same level directory file ( mainsail ) in the root directory of the U disk  
 
    2) Copy the files ( mainsail.sh and mainsail.tar ) to the directory ( /usr/data )
@@ -47,7 +47,7 @@
 
    6) Access to Mainsail: {IP}:4409 (e.g., 192.168.1.1:4409)
 
-#### Pinout
+#### III- Pinout
 
  <table>
     <tr>
@@ -65,13 +65,13 @@
 </table>
   
 
-#### Root guide
+#### IV- Root guide
 The link for the manual is [here](https://github.com/bankh/K1_Series_Annex/blob/main/root%20guide/K1%20Series%20root%20guide.pdf).
 
 Firmware-recovery-tool: https://github.com/CrealityOfficial/K1_Series_Annex/releases/tag/V1.0.0  
 Release： https://github.com/CrealityOfficial/K1_Series_Klipper/releases/tag/V1.3.2.1  
 
-#### Additional References:
+#### V- Additional References:
 - [Fluidd Documentation](https://docs.fluidd.xyz/)
 - [Mainsail Documentation](https://docs.mainsail.xyz/)
 - [Creality K1 K1 Max root access Use Prusa slicer, Klipper, Fluidd, Moonraker like a normal 3D printer](https://www.youtube.com/watch?v=l2JCWSBQczg)
