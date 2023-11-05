@@ -4,7 +4,7 @@ IIa- [Fluidd installation and uninstallation (UI Option)](#i--fluidd-installatio
 IIb- [Mainsail installation and uninstallation (UI Option)](#ii--mainsail-installation-and-uninstallation-ui-option)  
 III- [Pinout](#iii--pinout)  
 IV- [Root guide](#iv--root-guide)  
-V- [Multiple Camera Guide](#v--singlemultiple-camera-guide)  
+V- [Single/Multiple Camera Guide](#v--singlemultiple-camera-guide)  
 VI- [Additional References](#vi--additional-references)  
 
 ❗__Warning:__❗ Moonraker running for a long time on the K1 series poses a risk of memory overflow!
