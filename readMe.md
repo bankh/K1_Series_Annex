@@ -72,7 +72,7 @@ The link for the manual is [here](https://github.com/bankh/K1_Series_Annex/blob/
 Firmware-recovery-tool: https://github.com/CrealityOfficial/K1_Series_Annex/releases/tag/V1.0.0  
 Release： https://github.com/CrealityOfficial/K1_Series_Klipper/releases/tag/V1.3.2.1  
 
-#### V- Multiple Camera Guide  
+#### V- Single/Multiple Camera Guide  
 1- ssh into the machine
 ```
 $ ssh root@{IP_address}
@@ -106,7 +106,7 @@ https://{Machine_IP}:8080/?action=stream_1 second camera
 7- Adding these addresses on the config of the camera in Fluidd, we should see the following in UI.
 {Add screenshot}
 Note:  
-1- The following is for K1 max https://gitlab.com/kirbo/k1-max-dual-camera
+1- The following is for K1 max https://gitlab.com/kirbo/k1-max-dual-camera  
 2- For a single camera, one can check the address as http://{Machine_IP}:8080/?action=stream
 
 #### VI- Additional References:
