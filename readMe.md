@@ -103,8 +103,8 @@ $ mjpg_streamer -b -i "/usr/lib/mjpg-streamer/input_uvc.so -d /dev/video4" \
 https://{Machine_IP}:8080/?action=stream_0 first camera  
 https://{Machine_IP}:8080/?action=stream_1 second camera  
 
-7- Adding these addresses on the config of the camera in Fluidd, we should see the following in UI.
-{Add screenshot}
+7- Adding these addresses on the config of the camera in Fluidd, we should see the following in UI.  
+{Add screenshot}  
 Note:  
 1- The following is for K1 max https://gitlab.com/kirbo/k1-max-dual-camera  
 2- For a single camera, one can check the address as http://{Machine_IP}:8080/?action=stream
