@@ -4,7 +4,8 @@ IIa- [Fluidd installation and uninstallation (UI Option)](#fluidd-installation-a
 IIb- [Mainsail installation and uninstallation (UI Option)](#mainsail-installation-and-uninstallation-ui-option)  
 III- [Pinout](#pinout)  
 IV- [Root guide](#root-guide)  
-V- [Additional References](#additional-references)  
+V- [Multiple Camera Guide](#multiple-camera-guide)  
+VI- [Additional References](#additional-references)  
 
 ❗__Warning:__❗ Moonraker running for a long time on the K1 series poses a risk of memory overflow!
 
@@ -71,7 +72,44 @@ The link for the manual is [here](https://github.com/bankh/K1_Series_Annex/blob/
 Firmware-recovery-tool: https://github.com/CrealityOfficial/K1_Series_Annex/releases/tag/V1.0.0  
 Release： https://github.com/CrealityOfficial/K1_Series_Klipper/releases/tag/V1.3.2.1  
 
-#### V- Additional References:
+#### V- Multiple Camera Guide  
+1- ssh into the machine
+```
+$ ssh root@{IP_address}
+```
+
+2- Check the existing video cameras:
+```
+$ v4l2-ctl --list-devices
+```
+{Add screenshot}
+
+3- Run this command:
+```
+$ fuser /dev/video4 # This shows the existing Process ID
+$ kill -9 {Process_ID_from_fuser}
+```
+
+4- If the system has multiple cameras change the device number (/dev/video{Number})
+
+5- Run the following command (List the each input devices after -i):
+```
+$ mjpg_streamer -b -i "/usr/lib/mjpg-streamer/input_uvc.so -d /dev/video4" \
+                   -i "/usr/lib/mjpg-streamer/input_uvc.so -d /dev/video6" \
+                   -o "/usr/lib/mjpg-streamer/output_http.so -p 8080"
+```
+
+6- We should be able to see the first camera on:
+https://{Machine_IP}:8080/?action=stream_0 first camera
+https://{Machine_IP}:8080/?action=stream_1 second camera
+
+7- Adding these addresses on the config of the camera in Fluidd, we should see the following in UI.
+{Add screenshot}
+Note:  
+1- The following is for K1 max https://gitlab.com/kirbo/k1-max-dual-camera
+2- For a single camera, one can check the address as http://{Machine_IP}:8080/?action=stream
+
+#### VI- Additional References:
 - [Fluidd Documentation](https://docs.fluidd.xyz/)
 - [Mainsail Documentation](https://docs.mainsail.xyz/)
 - [Creality K1 K1 Max root access Use Prusa slicer, Klipper, Fluidd, Moonraker like a normal 3D printer](https://www.youtube.com/watch?v=l2JCWSBQczg)
