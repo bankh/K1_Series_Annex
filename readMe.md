@@ -1,7 +1,7 @@
 ### Table of Contents
 I- Download and Install the Image 1.3.2  
-IIa- [Fluidd installation and uninstallation (UI Option)](#i--fluidd-installation-and-uninstallation-ui-option)  
-IIb- [Mainsail installation and uninstallation (UI Option)](#ii--mainsail-installation-and-uninstallation-ui-option)  
+IIa- [Fluidd installation and uninstallation (UI Option)](#iia--fluidd-installation-and-uninstallation-ui-option)  
+IIb- [Mainsail installation and uninstallation (UI Option)](#iib--mainsail-installation-and-uninstallation-ui-option)  
 III- [Pinout](#iii--pinout)  
 IV- [Root guide](#iv--root-guide)  
 V- [Single/Multiple Camera Guide](#v--singlemultiple-camera-guide)  
