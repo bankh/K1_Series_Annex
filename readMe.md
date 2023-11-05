@@ -99,9 +99,9 @@ $ mjpg_streamer -b -i "/usr/lib/mjpg-streamer/input_uvc.so -d /dev/video4" \
                    -o "/usr/lib/mjpg-streamer/output_http.so -p 8080"
 ```
 
-6- We should be able to see the first camera on:
-https://{Machine_IP}:8080/?action=stream_0 first camera
-https://{Machine_IP}:8080/?action=stream_1 second camera
+6- We should be able to see the first camera on:  
+https://{Machine_IP}:8080/?action=stream_0 first camera  
+https://{Machine_IP}:8080/?action=stream_1 second camera  
 
 7- Adding these addresses on the config of the camera in Fluidd, we should see the following in UI.
 {Add screenshot}
