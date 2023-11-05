@@ -1,11 +1,11 @@
 ### Table of Contents
 I- Download and Install the Image 1.3.2  
-IIa- [Fluidd installation and uninstallation (UI Option)](#fluidd-installation-and-uninstallation-ui-option)  
-IIb- [Mainsail installation and uninstallation (UI Option)](#mainsail-installation-and-uninstallation-ui-option)  
-III- [Pinout](#pinout)  
-IV- [Root guide](#root-guide)  
-V- [Multiple Camera Guide](#multiple-camera-guide)  
-VI- [Additional References](#additional-references)  
+IIa- [Fluidd installation and uninstallation (UI Option)](#i--fluidd-installation-and-uninstallation-ui-option)  
+IIb- [Mainsail installation and uninstallation (UI Option)](#ii--mainsail-installation-and-uninstallation-ui-option)  
+III- [Pinout](#iii--pinout)  
+IV- [Root guide](#iv--root-guide)  
+V- [Multiple Camera Guide](#v--singlemultiple-camera-guide)  
+VI- [Additional References](#vi--additional-references)  
 
 ❗__Warning:__❗ Moonraker running for a long time on the K1 series poses a risk of memory overflow!
 
