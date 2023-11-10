@@ -82,7 +82,12 @@ $ ssh root@{IP_address}
 ```
 $ v4l2-ctl --list-devices
 ```
-{Add screenshot}
+{Add screenshot}  
+__Note:__ To use v4l2-ctl (installed image should already have it)
+```
+$ sudo apt-get update
+$ sudo apt-get install v4l-utils
+```
 
 3- Run this command:
 ```
