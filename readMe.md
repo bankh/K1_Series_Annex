@@ -73,7 +73,7 @@ Firmware-recovery-tool: https://github.com/CrealityOfficial/K1_Series_Annex/rele
 Release： https://github.com/CrealityOfficial/K1_Series_Klipper/releases/tag/V1.3.2.1  
 
 #### V- Single/Multiple Camera Guide  
-1- ssh into the machine
+1- ssh into the machine (username: root, password: creality_2023)
 ```
 $ ssh root@{IP_address}
 ```
